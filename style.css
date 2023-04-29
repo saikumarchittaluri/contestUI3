@@ -1,0 +1,46 @@
+.cointainer{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: center;
+    
+}
+ 
+.photogalaryrow{
+    display: grid;
+        width:100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 25%);
+        position: static;
+        justify-content: center;
+
+}
+.photogalarycolumn{
+  display: flex;
+    flex: 40%;
+  width: 300px;
+  height: 200px;
+  /* padding: 0 4px; */
+  padding: 30px;
+}
+ 
+.photogalarycolumn img{
+    margin-top: 8px;
+  vertical-align: middle;
+  width: 90%;
+}
+.cards{
+  position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px; 
+    box-shadow: 5px;
+}
+footer{
+  padding: 40px;
+  background-color:azure;
+}
